@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from openai import OpenAI
 import pandas
 
+# TEST
 alignment_questions = pandas.read_csv("static/SA_questions.csv").to_dict(orient='records')
 
 
